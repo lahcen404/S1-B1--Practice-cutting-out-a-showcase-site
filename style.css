@@ -1,9 +1,90 @@
 body, html {height: 100%}
-body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
-.menu {display: none}
-.bgimg {
-  background-repeat: no-repeat;
+
+* {
+    font-family: "Amatic SC", sans-serif;
+}
+
+.navbar{
+        
+      background-color: rgba(0, 0, 0, 10);
+      width: 100%;
+      font-size: 20px;
+}
+
+.navbar a{
+    padding: 10px ;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
+.navbar a:hover {
+    color: rgb(1, 1, 1);
+  background-color: rgb(190, 185, 185);
+}
+
+.navbar:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+
+.header {
+    
+  background-image: url('./imgs/slice-of-pizza-falling-into-the-air-on-a-dark-background-photo.jpg');
   background-size: cover;
-  background-image: url("./imgs/slice-of-pizza-falling-into-the-air-on-a-dark-background-photo.jpg");
-  min-height: 90%;
+  background-position: center;
+  height: 100%; /* touul*/
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.header-overlay {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.header-text {
+  text-align: center;
+  color: white;
+  
+}
+
+.header-text h1 {
+  font-size: 90px;
+  letter-spacing: 2px;
+}
+
+.open-time {
+    position: absolute;       /* fiiix in header */
+  bottom: 20px;             /* distance from bottom */
+  left: 20px;               /* distance from left */
+    color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 18px;
+  background-color: black;
+  
+}
+
+.btn {
+  display: inline-block;
+  background: black;
+  color: white;
+  font-size: 30px;
+  padding: 15px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #e63946;
 }
