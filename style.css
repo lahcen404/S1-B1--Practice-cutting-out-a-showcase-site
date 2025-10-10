@@ -191,6 +191,49 @@ body, html {height: 100%}
   margin-right: 10px;
 }
 
+.about {
+  background-color: rgb(150, 64, 64);
+  color: white;
+  padding: 40px;
+  align-items: center;
+  
+}
+
+.about h1 , h2 {
+  font-size: 60px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
+
+.about p {
+  font-size: 35px;
+  line-height: 1.5;
+}
+
+.chef {
+  width: 200px;
+  border-radius: 50%;
+  float: right;
+}
+
+.restaurant {
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.hours {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.hours p {
+  margin: 5px 0;
+}
+
 footer {
   background: black;
   color: white;
